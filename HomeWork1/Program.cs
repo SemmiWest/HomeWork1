@@ -1,4 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Введите ваше имя: ");
-string name = Console.ReadLine();
-    Console.WriteLine($"Привет {name}");
+var array = new int[] { 7, 4, 8, 56, 13, 43 };
+var max = -10000;
+var secMax = 0; 
+foreach (var item in array)
+{
+    if (max < item ){
+        max = item;
+    }
+
+}
+foreach (var item in array) {
+    if (secMax < item && item != max) { 
+    secMax = item;
+    }
+}
+Console.WriteLine(secMax);
