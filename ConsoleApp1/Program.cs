@@ -26,7 +26,7 @@ Pacient pacient = new Pacient()
 Console.WriteLine("Обращение : ");
 Console.WriteLine("1.Иммунитет");
 Console.WriteLine("2.Часть тела");
- var Inicialization  = Console.ReadLine();
+var Inicialization  = Console.ReadLine();
 int ToConvert = Convert.ToInt32(Inicialization);
 
 if (ToConvert == 1  ) 
@@ -56,7 +56,7 @@ else {
         var buyMedicaments = pacient.BuyMedicaments;
         var godBuy = Therapyst.GoodBuy;
     }
-    else if (value == 0)
+    else 
     {
         Therapyst.Analiz(value);
         var godBuy = Therapyst.GoodBuy;
