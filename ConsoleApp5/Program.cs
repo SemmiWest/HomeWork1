@@ -33,4 +33,4 @@ Directory.Delete("C:\\Users\\chuba\\OneDrive\\Робочий стіл\\Прог�
 var fileTxt = "C:\\Users\\chuba\\AppData\\Roaming\\Lesson12HomeWork.txt";
 using var fileStreamSecond = new FileStream(fileTxt,FileMode.OpenOrCreate);
 using var newStreamWiter = new StreamWriter(fileStreamSecond);
-newStreamWiter.WriteLine(Path.GetFullPath("NewInfo.csv"));
+newStreamWiter.WriteLine(Path.GetFullPath("C:\\Users\\chuba\\OneDrive\\Робочий стіл\\Программирование\\Проекты\\HomeWork1\\ConsoleApp5\\NewInfo.csv"));
