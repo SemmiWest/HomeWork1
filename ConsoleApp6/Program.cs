@@ -5,3 +5,4 @@ using var streamReader = new StreamReader(fileStream);
 using var fileScvStream = new FileStream(streamReader.ReadToEnd(), FileMode.OpenOrCreate);
 using var streamCsvReader = new StreamReader(fileScvStream);
 Console.WriteLine(streamCsvReader.Read());
+File.Delete(txtPath);
