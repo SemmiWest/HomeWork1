@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.IO.Compression;
 using System.Runtime;
-
+""
 if (!Directory.Exists("C:\\Users\\chuba\\OneDrive\\Робочий стіл\\Программирование\\Проекты\\HomeWork1\\ConsoleApp5\\ZipInfo"))
 {
     Directory.CreateDirectory("C:\\Users\\chuba\\OneDrive\\Робочий стіл\\Программирование\\Проекты\\HomeWork1\\ConsoleApp5\\ZipInfo");
